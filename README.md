@@ -1,2 +1,3 @@
-# Personal-Finance-Management-App-Kotlin
-Personal Finance Management mobile app with kotlin language
+# Personal-Finance-App-Kotlin
+
+Group Project of SLIIT 2nd yr 2nd semester

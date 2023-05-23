@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph">
+
+    <action
+        android:id="@+id/action_FirstFragment_to_SecondFragment"
+        app:destination="@id/SecondFragment" />
+    <action
+        android:id="@+id/action_SecondFragment_to_FirstFragment"
+        app:destination="@id/FirstFragment" />
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.bottomnav.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.bottomnav.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/income_expense2"
+        android:name="com.example.bottomnav.income_expense"
+        android:label="fragment_income_expense"
+        tools:layout="@layout/fragment_income_expense" >
+        <action
+            android:id="@+id/action_income_expense2_to_income"
+            app:destination="@id/income" />
+        <action
+            android:id="@+id/action_income_expense2_to_expense"
+            app:destination="@id/expense" />
+    </fragment>
+    <fragment
+        android:id="@+id/income"
+        android:name="com.example.bottomnav.income"
+        android:label="fragment_income"
+        tools:layout="@layout/fragment_income" >
+        <action
+            android:id="@+id/action_income_to_income_expense2"
+            app:destination="@id/income_expense2" />
+    </fragment>
+    <fragment
+        android:id="@+id/expense"
+        android:name="com.example.bottomnav.expense"
+        android:label="fragment_expense"
+        tools:layout="@layout/fragment_expense" />
+</navigation>

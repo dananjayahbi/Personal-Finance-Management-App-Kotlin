@@ -1,0 +1,22 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="basic_text">16sp</dimen>
+    <dimen name="normal_text">20sp</dimen>
+    <dimen name="Large_text">24sp</dimen>
+    <dimen name="Larger_text">34sp</dimen>
+    <dimen name="margins_normal">16dp</dimen>
+    <dimen name="margin_small">5dp</dimen>
+
+    <dimen name="selecttext">16sp</dimen>
+    <dimen name="formText">20sp</dimen>
+    <dimen name="hintText">18sp</dimen>
+    <dimen name="primaryTextSize">14sp</dimen>
+    <dimen name="btnTextSize">14sp</dimen>
+    <dimen name="defaultMargin">15dp</dimen>
+    <dimen name="defaultPadding">5dp</dimen>
+
+    <dimen name="headings">34dp</dimen>
+    <dimen name="fields">18dp</dimen>
+    <dimen name="buttons">14dp</dimen>
+    
+</resources>

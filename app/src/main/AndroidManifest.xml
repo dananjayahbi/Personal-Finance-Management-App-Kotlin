@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BottomNav"
+        tools:targetApi="31">
+        <activity
+            android:name=".HashCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".income_update"
+            android:exported="false" />
+        <activity
+            android:name=".Income_View"
+            android:exported="false" />
+        <activity
+            android:name=".addGoal"
+            android:exported="false" />
+        <activity
+            android:name=".GoalDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddGoal"
+            android:exported="false" />
+        <activity
+            android:name=".AddAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccFetch"
+            android:exported="false" />
+        <activity
+            android:name=".Accounts"
+            android:exported="false" />
+        <activity
+            android:name=".AccDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Transfer"
+            android:exported="false" />
+        <activity
+            android:name=".linechart"
+            android:exported="false" />
+        <activity
+            android:name=".add_expense"
+            android:exported="false" />
+        <activity
+            android:name=".AccountsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".addexpense"
+            android:exported="false"
+            android:label="@string/title_activity_addexpense"
+            android:theme="@style/Theme.BottomNav.NoActionBar" />
+        <activity
+            android:name=".addIncome"
+            android:exported="false" />
+        <activity
+            android:name=".AddGoal"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".AddAccountActivity"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".AccDetailsActivity"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".AccFetch"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="account_types_array">
+        <item>Cash</item>
+        <item>Credit Card</item>
+        <item>Checking</item>
+        <item>Savings</item>
+    </string-array>
+</resources>

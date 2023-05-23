@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Fintive</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="projInc">Projected Income</string>
+    <string name="current">Current Earnings</string>
+    <string name="incomeName">Name</string>
+    <string name="incomeAmount">Amount</string>
+    <string name="date">Expected Date</string>
+    <string name="recurring">Recurring</string>
+    <string name="frequency">Frequency</string>
+    <string name="clear">CLEAR</string>
+    <string name="delete">Delete</string>
+    <string name="earned">Earned</string>
+    <string name="update">Update</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="often">Frequency</string>
+    <string-array name="frequency">
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Year</item>
+    </string-array>
+    <string name="title_activity_addexpense">addexpense</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="welcome">Welcome, Akith</string>
+    <string name="balance">Rs.50,000.00</string>
+    <string name="textBalance">Total Balance</string>
+    <string name="currBalance">Available Balance</string>
+    <string name="amountBalance">Rs.35,000.00</string>
+    <string name="upcomming">Upcomming Expenses</string>
+    <string name="utilites">Utilities</string>
+    <string name="amountUtilities">Rs.5000.00</string>
+    <string name="utilDate">17/03/22</string>
+    <string name="recentTrans">Recent Transactions</string>
+    <string name="expectedIncome">Expected Income</string>
+    <string name="expectedIncVal">RS.65,000.00</string>
+    <string name="currInc">Current Income</string>
+    <string name="currIncValue">Rs.45,000.00</string>
+    <string name="addBtnText">+ ADD</string>
+    <string name="textNonReccur">Non-Recurring</string>
+    <string name="textReccuring">Recurring</string>
+
+
+    <string name="income">Income</string>
+    <string name="ExpencesBtn">Expences</string>
+    <string name="goalsButton">Goals</string>
+    <string name="selectItem">Select Item</string>
+    <string name="goalHeading">Goals</string>
+    <string name="add_btn">+ Add</string>
+    <string name="sampleGoal">Goal</string>
+    <string name="sampleGoaldesc">sample sample sample sample sample</string>
+    <string name="GoalName">Goal Name</string>
+    <string name="EnterGoalHint">Enter Goal Name</string>
+    <string name="TextDescription">Description</string>
+    <string name="remindme">"Remind Me in Every "</string>
+    <string name="days">days</string>
+    <string name="enterDesc">Enter Description</string>
+    <string name="cancelbtn">Cancel</string>
+    <string name="goalName">Goal Name</string>
+    <string name="UPDATE">UPDATE</string>
+    <string name="deleteBtn">DELETE</string>
+
+
+    <string name="Acc_heading">ACCOUNTS</string>
+    <string name="Acc_card1">Cash</string>
+    <string name="Acc_card1_amount">100000.00</string>
+    <string name="Acc_card2">Card</string>
+    <string name="Acc_card2_amount">200000.00</string>
+    <string name="Add_btn">+ ADD</string>
+    <string name="Add_account_heading">ADD ACCOUNT</string>
+    <string name="Add_account_field1">Account Name</string>
+    <string name="Add_account_field2">Initial Account Balance</string>
+    <string name="Add_account_field3">Initial Balance Date</string>
+    <string name="Add_account_field4">Account Type</string>
+    <string name="Edit_account_heading">EDIT ACCOUNT</string>
+    <string name="edit_acc_field1">Account Name</string>
+    <string name="edit_acc_field2">Initial Account Balance</string>
+    <string name="edit_acc_field3">Initial Balance Date</string>
+    <string name="edit_acc_field4">Account Type</string>
+    <string name="edit_acc_btn">✎ EDIT</string>
+    <string name="transfer_heading">TRANSFER</string>
+    <string name="transfer_field1">Amount</string>
+    <string name="transfer_field2">✎ Note</string>
+    <string name="transfer_field3">FROM</string>
+    <string name="transfer_field4">TO</string>
+    <string name="transfer_btn">《 》 TRANSFER</string>
+    <string name="currency_format">Rs.%.2f</string>
+    <string name="Calbtn">Calculator</string>
+
+</resources>

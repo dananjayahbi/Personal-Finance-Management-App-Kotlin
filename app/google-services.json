@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "483230789002",
+    "project_id": "fintive-57a5a",
+    "storage_bucket": "fintive-57a5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483230789002:android:5c2938d49a38864e86ac73",
+        "android_client_info": {
+          "package_name": "com.example.bottomnav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483230789002-123ug0bfv8oaujbttr35paji38pcu3o6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBEFRzf93StOyS8B5Wle4-PGMJf725awY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483230789002-123ug0bfv8oaujbttr35paji38pcu3o6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
